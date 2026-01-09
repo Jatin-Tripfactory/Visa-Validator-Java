@@ -1,0 +1,26 @@
+countries:
+  JP:
+    passportRules:
+      IN:
+        TOURISM:
+          required: true
+          visaType: TOURIST
+          documents:
+            - PASSPORT
+            - PHOTO
+          processingDays: 7
+          maxstayDays: 90
+          warnings:
+            - "Apply at least one week in advance"
+
+  US:
+    passportRules:
+      IN:
+        BUSINESS:
+          required: true
+          visaType: BUSINESS
+          documents:
+            - PASSPORT
+          processingDays: 14
+          maxstayDays: 60
+          warnings: []
